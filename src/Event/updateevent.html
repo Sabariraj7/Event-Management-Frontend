@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="updateevent.css">
+    <title>Update Event</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Update Event</h1>
+        <form id="updateEventForm">
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" name="eventName" required>
+
+            <label for="hallSelect">Select Hall:</label>
+            <select id="hallSelect" name="hall" required>
+                <option value="">Select a hall</option>
+            </select>
+            
+            <label for="eventLocation">Event Location:</label>
+            <input type="text" id="eventLocation" name="eventLocation" required>
+
+            <label for="eventDate">Event Date:</label>
+            <input type="datetime-local" id="eventDate" name="eventDate" required>
+
+            <button type="submit">Update Event</button>
+        </form>
+    </div>
+
+    <script src="updateevent.js"></script>
+</body>
+</html>
